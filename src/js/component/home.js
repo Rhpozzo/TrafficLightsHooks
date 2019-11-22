@@ -1,9 +1,10 @@
 import React from "react";
+import { TrafficLight } from "./trafficLight.js";
 //create your first component
 export function Home() {
 	return (
 		<div className="text-center mt-5">
-			<h1>Traffic Lights using react hooks</h1>
+			<TrafficLight />
 		</div>
 	);
 }
