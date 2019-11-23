@@ -1,18 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-
-
 .main-container{
     border: 1px solid red;
 }
@@ -25,6 +12,7 @@
     border: 1px solid black;
     height: 310px;
     width: 110px;
+    box-shadow: -3px 1px 30px 0px rgba(29, 28, 28, 0.596)
 }
 .palito{
     border: 1px solid black;
@@ -38,9 +26,13 @@
     width: 100px;
     margin: 2px auto;
     border-radius: 50%;
-    &.red{background: rgba(255, 0, 0, 0.5)};
+    cursor: pointer;
+    &.red{background: rgba(204, 15, 15, 0.322)};
     &.yellow{background: rgba(255, 255, 0, 0.616)};
-    &.green{background: rgba(0, 128, 0, 0.651);}
-    &.selected{&.red{background: red} &.yellow{background: yellow} &.green{background: green}};
-    &.selected{box-shadow: 0px 0px 100px 2px rgb(255, 255, 255)}
-}
+    &.green{background: rgba(0, 128, 0, 0.719);}
+    &.selected{
+            &.red{background: red} 
+            &.yellow{background: yellow} 
+            &.green{background: rgb(4, 243, 4)} 
+            &.selected{box-shadow: 0px 0px 100px 2px rgb(255, 255, 255)}}
+    }
