@@ -1,12 +1,9 @@
 # Traffic Light Using React Hooks & State
 
-##### Download the boilerplate using the BreatheCode CLI
+##### React
 
 
-#### Or Download the boilerplate using git
+#### Hooks
 
 
-
-##### and install the npm package:
-
-
+##### State
